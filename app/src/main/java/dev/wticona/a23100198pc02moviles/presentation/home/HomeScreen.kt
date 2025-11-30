@@ -8,7 +8,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import dev.wticona.a23100198pc02moviles.presentation.navigation.Routes
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(nav: NavController, vm: HomeViewModel = viewModel()) {
 
