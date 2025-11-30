@@ -3,6 +3,7 @@ package dev.wticona.a23100198pc02moviles.presentation.navigation
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType
 import androidx.navigation.compose.*
+import androidx.navigation.navArgument
 import dev.wticona.a23100198pc02moviles.presentation.home.HomeScreen
 import dev.wticona.a23100198pc02moviles.presentation.result.ResultScreen
 
